@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="author" content="Anderson Valencia Zambrano">
+	<meta name="description" content="Hoja de vida de Anderson Valencia">
+	<title>Hoja de Vida</title>
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Handlee" rel="stylesheet">
+</head>
+<body>
+	<div class="contenedor" style="max-width:960px; margin:auto">
+		<!-- Encabezado de pagina -->
+		<header>
+			<center>
+				<img src="imagenes/LogoPersonal.svg" width="115px" alt="Logo Personal de Anderson Valencia Zambrano">
+			</center>
+		</header>
+		
+		<!-- Contenido Principal -->
+		<main id="principal">
+			<h1 align="center">Hoja de Vida</h1>
+			<hr>
+
+			<section id="datos">
+				<h2><strong>ANDERSON VALENCIA ZAMBRANO</strong></h2>
+				<h3><span>Fecha y Lugar de Nacimiento:</span> <br><strong>02 de diciembre de 1987 - Santander de Quilichao, Cauca.</strong></h3>
+			</section>
+
+			<nav id="enlace-menu">
+				<center>
+					<a href="index.html">Inicio</a> | 
+					<a href="educacion.html">Educación</a> | 
+					<a href="experiencia.html">Experiencia</a>
+				</center>
+			</nav>
+			<br>
+			<hr>
+			<section id="educacion">
+				<h2>Educación</h2>
+				<table border="1" width="100%" cellpadding="0" cellspacing="0" bordercolor="#D2D2D2">
+					<thead>
+						<tr>
+							<th>Año</th>
+							<th>Institución</th>
+							<th>Titulo</th>
+							<th>Lugar</th>
+							<th>¿Culminó?</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>2015</td>
+							<td>CORPORACIÓN UNIVERSITARIA COMFACAUCA</td>
+							<td>Ingeniero de Sistemas</td>
+							<td>Santander de Quilichao, Cauca.</td>
+							<td>Si</td>
+						</tr>
+						<tr>
+							<td>2015</td>
+							<td>UNIVERSIDAD AUTÓNOMA DE OCCIDENTE</td>
+							<td>Diplomado en Seguridad Informática y Redes de Datos</td>
+							<td>Cali, Valle del Cauca.</td>
+							<td>Si</td>
+						</tr>
+						<tr>
+							<td>2015</td>
+							<td>ITSERVICE – AXELOS GLOBAL BEST PRACTICE</td>
+							<td>ITIL Foundation certificate in IT Service Management</td>
+							<td>Cali, Valle del Cauca.</td>
+							<td>Si</td>
+						</tr>
+					</tbody>
+				</table>
+
+			</section>
+			<section id="agregar-estudios">
+
+				<form action="" method="POST">
+					<h1>Agregar Estudios</h1>
+					
+					<label for="anio">Año</label>
+					<select name="anio" id="anio">
+						<option value="2018">2018</option>
+						<option value="2018">2019</option>
+						<option value="2018">2020</option>
+					</select>
+					
+					<br>
+					<label for="institucion">Institución:</label>
+					<input type="text" id="institucion:" name="institucion:" required>
+					
+					<br>
+					<label for="titulo">Titulo:</label>
+					<input type="text" id="titulo:" name="titulo:" required>
+
+					<br>
+					<label for="lugar">Lugar:</label>
+					<br>
+					<textarea name="lugar" id="lugar" cols="30" rows="10"></textarea>
+					<br><br>
+					<button type="submit">Enviar</button>
+				</form>
+			</section>
+
+		</main>
+		<!-- Pie de pagina -->
+		
+		<footer>
+			<hr>
+			<address>
+				Ingeniero. <strong>Anderson Valencia Zambrano</strong>
+				<br>
+				<strong>Correo Electronico:</strong> <a href="mailto: andervalz@hotmail.com">andervalz@hotmail.com</a>
+				<br>
+				<strong>Telefono:</strong> 310 423 4223
+				<br>
+				<strong>Redes Sociales: </strong>
+				<a href="https://www.facebook.com/AndersonValenciaZambrano" target="_blank">Facebook</a> | 
+				<a href="https://twitter.com/andervalz" target="_blank">Twitter</a>
+			</address>
+		</footer>
+		<p align="right"><a href="#principal">Subir.</a></p>
+	</div>
+</body>
+</html>
